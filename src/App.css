@@ -326,5 +326,43 @@ body {
 }
 
 .ice-tag-item {
-  
+  font-size: 11px;
+  background: #F0F9FF;
+  border: 1px solid #BAE6FD;
+  color: var(--ice-navy);
+  padding: 2px 7px;
+}
+
+.ice-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.nordic-contact-box {
+  background: #FFFFFF;
+  border: var(--pixel-border);
+  box-shadow: 5px 5px 0 var(--ice-primary);
+  padding: 40px 24px;
+  text-align: center;
+}
+
+.nordic-contact-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--ice-navy);
+  margin-bottom: 10px;
+}
+
+.nordic-contact-sub {
+  font-size: 14px;
+  color: var(--polar-dim);
+  max-width: 500px;
+  margin: 0 auto 24px auto;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 9px;
+  color: var(--polar-dim);
 }

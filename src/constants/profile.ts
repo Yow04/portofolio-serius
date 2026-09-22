@@ -7,9 +7,9 @@ export const profile = {
     eyebrow : 'minimal banget',
     heading : 'Design seminimal mungkin loh',
     bio : 'selayaknya manusia aja loh ya',
-    metrics : 'metrik keren',
+    metrics : [''],
     email : 'keren juga.com',
-    //blank space untuk foto nantinya
+    photo : '' as string,
 
 };
 
