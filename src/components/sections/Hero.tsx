@@ -31,7 +31,7 @@ const Hero = () => {
 
         <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
           <Button href="#projects">EXPLORE WORK ↓</Button>
-          <Button href="#contact" variant="outliner">LET'S CONNECT</Button>
+          <Button href="#contact" variant="outline">LET'S CONNECT</Button>
         </div>
       </div>
     </section>

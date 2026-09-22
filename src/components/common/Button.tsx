@@ -14,13 +14,13 @@ const Button = ({
     ...rest
 }: ButtonProps) => {
     const classes = [
-        'btn-forst',
-        variant === 'outliner' ? 'btn-outline' : '',
+        'btn-frost',
+        variant === 'outline' ? 'btn-outline' : '',
         fullWidth ? 'btn-full' : '',
         className,
     ]
     .filter(Boolean)
-    .join('');
+    .join(' ');
 
     return (
         <a className={classes} {...rest}>

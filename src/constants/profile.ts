@@ -1,4 +1,5 @@
 import type { SocialLink } from '../types';
+import profilephoto from '../assets/profile.jpg'
 
 export const profile = {
     name : 'cihutt',
@@ -9,7 +10,7 @@ export const profile = {
     bio : 'selayaknya manusia aja loh ya',
     metrics : [''],
     email : 'keren juga.com',
-    photo : '' as string,
+    photo : profilephoto,
 
 };
 

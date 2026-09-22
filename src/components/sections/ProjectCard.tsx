@@ -22,7 +22,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
         </div>
         <div className="ice-actions">
           <Button href="#" fullWidth>VIEW CASE</Button>
-          <Button href="#" variant="outliner" fullWidth>CODE</Button>
+          <Button href="#" variant="outline" fullWidth>CODE</Button>
         </div>
       </div>
     </article>

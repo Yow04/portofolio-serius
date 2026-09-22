@@ -1,4 +1,4 @@
-export type ButtonVariant = 'solid' | 'outliner';
+export type ButtonVariant = 'solid' | 'outline';
 
 export interface Project {
     id: string;

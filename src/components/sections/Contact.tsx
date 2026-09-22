@@ -15,7 +15,7 @@ const Contact = () => {
           <Button
             key={link.label}
             href={link.href}
-            variant="outliner"
+            variant="outline"
             target={link.external ? '_blank' : undefined}
             rel={link.external ? 'noreferrer' : undefined}
           >
