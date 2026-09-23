@@ -2,14 +2,14 @@ import type { SocialLink } from '../types';
 import profilephoto from '../assets/profile.jpg'
 
 export const profile = {
-    name : 'cihutt',
-    role : 'gege',
-    status : 'mantap',
-    eyebrow : 'minimal banget',
-    heading : 'Design seminimal mungkin loh',
-    bio : 'selayaknya manusia aja loh ya',
-    metrics : [''],
-    email : 'keren juga.com',
+    name : 'Rajawali Shaktika Anugrah Prasetya',
+    role : 'Informatics',
+    status : 'Fresh Graduate',
+    eyebrow : 'SE, Data, GameDev Enthusiast',
+    heading : 'Hi, I am rajawali',
+    bio : 'Informatics graduate with a focus on Web and Mobile Development. I enjoy building applications, learning new technologies, and turning ideas into functional digital experiences.',
+    metrics : ['FrontEnd', 'BackEnd', 'Mobile'],
+    email : 'rajawali.prasetya4@gmail.com',
     photo : profilephoto,
 
 };
