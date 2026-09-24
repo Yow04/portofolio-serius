@@ -9,9 +9,9 @@ export const projects: Project[] = [
     {
         id: 'case1',
         caseLabel: 'casepertama',
-        title: 'projectcasepertama',
-        description: 'project pertama nantinya bisa ditaruh disni',
-        tags: ['next.js', 'danlainlain'],
+        title: 'E-Commerce and Affiliate Website | PT Bizhub Digital Indonesia',
+        description: 'Sebuah website e-commerce serta sistem afiliasi yang dimiliki secara personal oleh PT Bizhub Digital Indonesia',
+        tags: ['React.js', 'Vite', 'Typescript'],
         thumbnail: <PROJECT1/>,
     },
     {
