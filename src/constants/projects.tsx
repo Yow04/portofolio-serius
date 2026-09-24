@@ -8,7 +8,7 @@ import {
 export const projects: Project[] = [
     {
         id: 'case1',
-        caseLabel: 'casepertama',
+        caseLabel: 'Proyek Nomor 1',
         title: 'E-Commerce and Affiliate Website | PT Bizhub Digital Indonesia',
         description: 'Sebuah website e-commerce serta sistem afiliasi yang dimiliki secara personal oleh PT Bizhub Digital Indonesia',
         tags: ['React.js', 'Vite', 'Typescript'],
@@ -16,18 +16,18 @@ export const projects: Project[] = [
     },
     {
         id: 'case2',
-        caseLabel: 'casekedua',
-        title: 'projectcasekedua',
-        description: 'project pertama nantinya bisa ditaruh disni',
-        tags: ['next.js', 'danlainlain'],
+        caseLabel: 'Proyek Nomor 2',
+        title: 'Renting System for Badminton Court',
+        description: 'Sebuah sistem untuk pemesanan lapangan badminton',
+        tags: ['Express.js', 'PRISMA'],
         thumbnail: <PROJECT2/>,
     },
     {
         id: 'case3',
-        caseLabel: 'caseketiga',
-        title: 'projectcaseketiga',
-        description: 'project pertama nantinya bisa ditaruh disni',
-        tags: ['next.js', 'danlainlain'],
+        caseLabel: 'Proyek Nomor 3',
+        title: 'AI-Fish Disease Detector Mobile Apps',
+        description: 'Membuat sebuah aplikasi mobile untuk mendeteksi penyakit dari ikan',
+        tags: ['Kotlin', 'Android'],
         thumbnail: <PROJECT3/>,
     }
 ];
