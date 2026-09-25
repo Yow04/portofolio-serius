@@ -8,7 +8,7 @@ const Navbar = () => {
         <div>
           <div className="nordic-brand-name pixel-text">NORDIC.FROST</div>
           <div style={{ fontSize: '8px', color: 'var(--polar-dim)' }}>
-            Minimalist Product Engineering
+            Rajawali's Little Space
           </div>
         </div>
       </a>

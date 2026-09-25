@@ -6,8 +6,7 @@ const Contact = () => {
     <section className="nordic-contact-box" id="contact">
       <h2 className="nordic-contact-title">SEEKING CALM, RELIABLE CODE?</h2>
       <p className="nordic-contact-sub">
-        Apakah Anda sedang merancang aplikasi web baru atau ingin menyederhanakan arsitektur
-        sistem Anda? Mari bicarakan kemungkinannya.
+        Apakah anda ingin membuat sebuah sistem website baik personal maupun bisnis? Silahkan kontak saja!
       </p>
       <div style={{ display: 'flex', justifyContent: 'center', gap: '12px', flexWrap: 'wrap' }}>
         <Button href={`mailto:${profile.email}`}>✉ {profile.email}</Button>
