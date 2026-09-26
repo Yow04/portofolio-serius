@@ -1,3 +1,17 @@
+@import "tailwindcss/theme" layer(theme);
+@import "tailwindcss/utilities" layer(utilities);
+
+@theme {
+  --color-ice-bg: #F0F9FF;
+  --color-ice-card: #FFFFFF;
+  --color-ice-primary: #0284C7;
+  --color-ice-navy: #0C4A6E;
+  --color-ice-frost: #BAE6FD;
+  --color-aurora: #0D9488;
+  --color-polar-text: #0F172A;
+  --color-polar-dim: #64748B;
+}
+
 :root {
   --ice-bg: #F0F9FF;
   --ice-card: #FFFFFF;
