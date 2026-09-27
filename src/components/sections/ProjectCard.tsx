@@ -8,7 +8,13 @@ interface ProjectCardProps {
 const ProjectCard = ({ project }: ProjectCardProps) => {
   return (
     <article className="ice-card">
-      <div className="ice-thumb">{project.thumbnail}</div>
+      <div className="ice-thumb">
+        <img
+          src={project.thumbnail}
+          alt={project.title}
+          className="ice-thumb-img"
+        />
+      </div>
       <div className="ice-body">
         <div>
           <div className="ice-tag pixel-text">{project.caseLabel}</div>
@@ -21,8 +27,8 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
           </div>
         </div>
         <div className="ice-actions">
-          <Button href="#" fullWidth>VIEW CASE</Button>
-          <Button href="#" variant="outline" fullWidth>CODE</Button>
+          <Button href={project.liveUrl} target="_blank" rel="noopener noreferrer" fullWidth>VIEW CASE</Button>
+          <Button href={project.codeUrl} target="_blank" rel="noopener noreferrer" variant="outline" fullWidth>CODE</Button>
         </div>
       </div>
     </article>

@@ -3,10 +3,12 @@ export type ButtonVariant = 'solid' | 'outline';
 export interface Project {
     id: string;
     caseLabel: string;
-    title: string
+    title: string;
     description: string;
     tags: string[];
-    thumbnail: React.ReactNode;
+    thumbnail: string;
+    liveUrl: string;
+    codeUrl: string;
 }
 
 export interface SocialLink {
