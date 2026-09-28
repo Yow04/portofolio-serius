@@ -7,7 +7,7 @@ const Navbar = () => {
       <a href="#" className="nordic-brand">
         <div className="ice-crystal-icon pixel-text">❄</div>
         <div>
-          <div className="nordic-brand-name pixel-text">NORDIC.FROST</div>
+          <div className="nordic-brand-name pixel-text">Portofolio Website</div>
           <div style={{ fontSize: '8px', color: 'var(--polar-dim)' }}>
             Rajawali's Little Space
           </div>
@@ -17,13 +17,7 @@ const Navbar = () => {
       <nav className="nordic-links">
         <a href="#about" className="nordic-link pixel-text">PROFILE</a>
         <a href="#projects" className="nordic-link pixel-text">CASES</a>
-        <Button
-          href={profile.resumeUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          ⬇ RESUME
-        </Button>
+        <Button href={profile.resumeUrl} target="_blank" rel="noopener noreferrer"> get RESUME </Button>
       </nav>
     </header>
   );

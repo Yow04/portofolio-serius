@@ -6,7 +6,7 @@ export const profile = {
     role : 'Informatics',
     status : 'Fresh Graduate',
     eyebrow : 'SE, Data, GameDev Enthusiast',
-    heading : 'Hi, I am rajawali',
+    heading : 'Hi, I am Rajawali',
     bio : 'Informatics graduate with a focus on Web and Mobile Development. I enjoy building applications, learning new technologies, and turning ideas into functional digital experiences.',
     metrics : ['FrontEnd', 'BackEnd', 'Mobile'],
     email : 'rajawali.prasetya4@gmail.com',
