@@ -10,7 +10,7 @@ export const projects: Project[] = [
         tags: ['React.js', 'Vite', 'Typescript'],
         thumbnail: project1,
         liveUrl: 'https://bizhub-frontend.onrender.com/',
-        codeUrl: 'https://github.com/username/project1',
+        codeUrl: ' ',
     },
     {
         id: 'case2',
@@ -39,7 +39,7 @@ export const projects: Project[] = [
         description: 'Membuat sebuah aplikasi sebagai hasil akhir dari mata kuliah manajemen proyek.',
         tags: ['Typescript'],
         thumbnail: '/projects/project4.png',
-        liveUrl: ' ',
+        liveUrl: 'https://manatask-bzhb.netlify.app/',
         codeUrl: 'https://github.com/Yow04/bizhub-management-task',
     },
     {
