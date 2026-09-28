@@ -1,16 +1,11 @@
-import { Button, Tag } from "../common";
+import { Tag } from "../common";
 import type { Certificate } from "../../types";
 
 interface CertificateCardProps {
     certificate: Certificate;
 }
 
-const cleanUrl = (url?: string) => url?.trim() || undefined;
-
 const CertificateCard = ({ certificate }: CertificateCardProps) => {
-    const credentialUrl = cleanUrl(certificate.credentialUrl);
-    const hasValidUrl = credentialUrl && credentialUrl !== '#';
-
     return (
         <article className="bg-ice-card border-2 border-ice-navy shadow-[4px_4px_0_var(--color-ice-frost)] flex flex-row max-md:flex-col transition-all duration-200 hover:-translate-y-[3px] hover:shadow-[6px_6px_0_var(--color-ice-primary)] overflow-hidden">
             {/* Thumbnail — 5 parts of the card */}
@@ -35,29 +30,16 @@ const CertificateCard = ({ certificate }: CertificateCardProps) => {
             </div>
 
             {/* Text content — 1 part of the card */}
-            <div className="flex-[1] min-w-[160px] p-5 flex flex-col justify-between">
-                <div>
-                    <div className="text-[8px] text-ice-primary mb-1.5 pixel-text">{certificate.issuer}</div>
-                    <h3 className="text-[12px] font-bold text-ice-navy mb-1.5 leading-[1.4] line-clamp-3">
-                        {certificate.title}
-                    </h3>
-                    <p className="text-[10px] text-polar-dim mb-3 pixel-text">{certificate.date}</p>
-                    <div className="flex flex-wrap gap-1 mb-3">
-                        {certificate.tags.map((tag) => (
-                            <Tag key={tag} variant="tech">{tag}</Tag>
-                        ))}
-                    </div>
-                </div>
-                <div>
-                    <Button
-                        href={certificate.credentialUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        disabled={!hasValidUrl}
-                        fullWidth
-                    >
-                        CREDENTIAL
-                    </Button>
+            <div className="flex-[1] min-w-[160px] p-5 flex flex-col justify-center">
+                <div className="text-[8px] text-ice-primary mb-1.5 pixel-text">{certificate.issuer}</div>
+                <h3 className="text-[12px] font-bold text-ice-navy mb-1.5 leading-[1.4] line-clamp-3">
+                    {certificate.title}
+                </h3>
+                <p className="text-[10px] text-polar-dim mb-3 pixel-text">{certificate.date}</p>
+                <div className="flex flex-wrap gap-1">
+                    {certificate.tags.map((tag) => (
+                        <Tag key={tag} variant="tech">{tag}</Tag>
+                    ))}
                 </div>
             </div>
         </article>
@@ -65,3 +47,4 @@ const CertificateCard = ({ certificate }: CertificateCardProps) => {
 };
 
 export default CertificateCard;
+

@@ -29,7 +29,6 @@ const Experience = () => {
                             key={exp.id}
                             className="bg-ice-card border-2 border-ice-navy shadow-[4px_4px_0_var(--color-ice-frost)] p-6 transition-all duration-200 hover:-translate-y-[2px] hover:shadow-[6px_6px_0_var(--color-ice-primary)] relative overflow-hidden"
                         >
-                            {/* Left accent bar */}
                             <div className="absolute left-0 top-0 bottom-0 w-1 bg-ice-primary" />
 
                             <div className="flex items-start justify-between gap-4 flex-wrap">
@@ -49,9 +48,11 @@ const Experience = () => {
                                     <p className="text-[12px] text-ice-primary font-semibold mb-2">
                                         {exp.company}
                                     </p>
-                                    <p className="text-[13px] text-polar-dim leading-[1.7]">
-                                        {exp.description}
-                                    </p>
+                                    <ul className="text-[13px] text-polar-dim leading-[1.7] list-disc pl-5 flex flex-col gap-1">
+                                        {exp.description.map((point, i) => (
+                                            <li key={i}>{point.trim()}</li>
+                                        ))}
+                                    </ul>
                                 </div>
 
                                 <div className="text-right shrink-0">
