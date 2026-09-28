@@ -5,7 +5,12 @@ interface ProjectCardProps {
     project: Project;
 }
 
+const cleanUrl = (url?: string) => url?.trim() || undefined;
+
 const ProjectCard = ({ project }: ProjectCardProps) => {
+  const liveUrl = cleanUrl(project.liveUrl);
+  const codeUrl = cleanUrl(project.codeUrl);
+
   return (
     <article className="ice-card">
       <div className="ice-thumb">
@@ -27,8 +32,8 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
           </div>
         </div>
         <div className="ice-actions">
-          <Button href={project.liveUrl} target="_blank" rel="noopener noreferrer" fullWidth>VIEW CASE</Button>
-          <Button href={project.codeUrl} target="_blank" rel="noopener noreferrer" variant="outline" fullWidth>CODE</Button>
+          <Button href={project.liveUrl} target="_blank" rel="noopener noreferrer" disabled={!liveUrl} fullWidth>VIEW CASE</Button>
+          <Button href={project.codeUrl} target="_blank" rel="noopener noreferrer" variant="outline" disabled={!codeUrl} fullWidth>CODE</Button>
         </div>
       </div>
     </article>

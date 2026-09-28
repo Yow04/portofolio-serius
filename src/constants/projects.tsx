@@ -1,5 +1,6 @@
 import type { Project } from '../types';
-
+import project5 from '../assets/project5.png';
+import project1 from '../assets/project1.png';
 export const projects: Project[] = [
     {
         id: 'case1',
@@ -7,7 +8,7 @@ export const projects: Project[] = [
         title: 'E-Commerce and Affiliate Website | PT Bizhub Digital Indonesia',
         description: 'Sebuah website e-commerce serta sistem afiliasi yang dimiliki secara personal oleh PT Bizhub Digital Indonesia',
         tags: ['React.js', 'Vite', 'Typescript'],
-        thumbnail: '/projects/project1.png',
+        thumbnail: project1,
         liveUrl: 'https://bizhub-frontend.onrender.com/',
         codeUrl: 'https://github.com/username/project1',
     },
@@ -47,7 +48,7 @@ export const projects: Project[] = [
         title: 'Know Your Tea Website',
         description: 'Membuat sebuah website deteksi penyakit tanaman teh melalui media citra pada bagian daun.',
         tags: ['React', 'Python', 'Ngrok'],
-        thumbnail: '/projects/project5.png',
+        thumbnail: project5,
         liveUrl: 'https://tea-bug.vercel.app/',
         codeUrl: 'https://github.com/Yow04/know-your-tea',
     },

@@ -141,6 +141,19 @@
     background: var(--ice-frost);
   }
 
+  .btn-frost.btn-disabled,
+  .btn-frost.btn-disabled:hover{
+    filter: brightness(0.8);
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: 3px 3px 0 var(--ice-navy);
+    background: var(--ice-primary);
+  }
+
+  .btn-frost.btn-outline.btn-disabled:hover{
+    background: #FFFFFF;
+  }
+
   .btn-full {
     flex: 1;
     justify-content: center;
