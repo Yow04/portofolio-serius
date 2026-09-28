@@ -11,6 +11,7 @@ export const profile = {
     metrics : ['FrontEnd', 'BackEnd', 'Mobile'],
     email : 'rajawali.prasetya4@gmail.com',
     photo : profilephoto,
+    resumeUrl : 'https://drive.google.com/file/d/1uCnRoAuB09dhp3zP-o88TJajSSugKWBg/view?usp=sharing',
 
 };
 

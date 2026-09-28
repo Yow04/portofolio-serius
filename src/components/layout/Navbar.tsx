@@ -1,4 +1,5 @@
 import { Button } from "../common";
+import { profile } from "../../constants/profile";
 
 const Navbar = () => {
   return (
@@ -16,7 +17,13 @@ const Navbar = () => {
       <nav className="nordic-links">
         <a href="#about" className="nordic-link pixel-text">PROFILE</a>
         <a href="#projects" className="nordic-link pixel-text">CASES</a>
-        <Button href="#contact">ENGAGE</Button>
+        <Button
+          href={profile.resumeUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          ⬇ RESUME
+        </Button>
       </nav>
     </header>
   );
