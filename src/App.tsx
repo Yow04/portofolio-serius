@@ -7,7 +7,7 @@ import './App.css'
 
 function App() {
   return (
-    <div className="nordic-container">
+    <div className="max-w-[1040px] mx-auto px-4 py-6">
       <Navbar />
       <Hero />
       <Projects />
