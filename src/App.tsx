@@ -2,6 +2,8 @@ import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
 import Hero from './components/sections/Hero';
 import Projects from './components/sections/Projects';
+import Experience from './components/sections/Experience';
+import Certificates from './components/sections/Certificates';
 import Contact from './components/sections/Contact';
 import './App.css'
 
@@ -11,6 +13,8 @@ function App() {
       <Navbar />
       <Hero />
       <Projects />
+      <Experience />
+      <Certificates />
       <Contact />
       <Footer />
     </div>

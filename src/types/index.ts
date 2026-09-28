@@ -11,6 +11,25 @@ export interface Project {
     codeUrl: string;
 }
 
+export interface Experience {
+    id: string;
+    company: string;
+    role: string;
+    period: string;
+    description: string;
+    type: 'fulltime' | 'internship' | 'freelance' | 'contract';
+}
+
+export interface Certificate {
+    id: string;
+    title: string;
+    issuer: string;
+    date: string;
+    thumbnail: string;
+    credentialUrl?: string;
+    tags: string[];
+}
+
 export interface SocialLink {
     label: string;
     href: string;
