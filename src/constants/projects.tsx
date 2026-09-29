@@ -1,5 +1,6 @@
 import type { Project } from '../types';
 import project5 from '../assets/project5.png';
+import project4 from '../assets/project4.png';
 import project1 from '../assets/project1.png';
 export const projects: Project[] = [
     {
@@ -37,8 +38,8 @@ export const projects: Project[] = [
         caseLabel: 'Project 4',
         title: 'Bizhub Management Task',
         description: 'A task management application built as the final project for a project management course.',
-        tags: ['Typescript'],
-        thumbnail: '',
+        tags: ['React', 'Typescript'],
+        thumbnail: project4,
         liveUrl: 'https://manatask-bzhb.netlify.app/',
         codeUrl: 'https://github.com/Yow04/bizhub-management-task',
     },
