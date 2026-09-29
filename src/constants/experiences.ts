@@ -6,7 +6,7 @@ export const experiences: Experience[] = [
         company: 'PT Bizhub Digital Indonesia',
         role: 'Frontend Developer Intern',
         period: 'Oct 2025 - Jan 2026',
-        description: [' - Developed a web-based affiliate and e-commerce platform using React.js and Vite in collaboration with a development team.',
+        description: ['Developed a web-based affiliate and e-commerce platform using React.js and Vite in collaboration with a development team.',
             'Built responsible and reusable React components based on system requirements and UI designs.',
             'Integrated frontend interfaces with backend APIs to support data interaction and core system functionalities.'
         ],

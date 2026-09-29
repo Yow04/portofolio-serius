@@ -1,31 +1,44 @@
 import type { Certificate } from '../types';
+import certi1 from '../assets/certificates/certi1.png';
+import certi2 from '../assets/certificates/certi2.png';
+import certi3 from '../assets/certificates/certi3.png';
+import certi4 from '../assets/certificates/certi4.png';
 
 export const certificates: Certificate[] = [
     {
         id: 'cert1',
         title: 'Bangkit Academy Certificate - Mobile Development Path',
         issuer: 'Google',
-        date: 'Dec 2024',
-        thumbnail: '/certificates/cert1.png',
+        date: ' Sep - Dec 2024',
+        thumbnail: certi1,
+        credentialUrl: '#',
+        tags: ['Kotlin', 'Android', 'Mobile', 'Machine Learning'],
+    },
+    {
+        id: 'cert2',
+        title: 'Belajar Fundamental Aplikasi Android',
+        issuer: 'Dicoding Indonesia',
+        date: 'Oct 2024',
+        thumbnail: certi2,
         credentialUrl: '#',
         tags: ['Kotlin', 'Android', 'Mobile'],
     },
     {
-        id: 'cert2',
-        title: 'React.js Frontend Development',
+        id: 'cert3',
+        title: 'Belajar Penerapan Machine Learning untuk Android',
         issuer: 'Dicoding Indonesia',
-        date: 'Oct 2024',
-        thumbnail: '/certificates/cert2.png',
+        date: 'Nov 2024',
+        thumbnail: certi3,
         credentialUrl: '#',
-        tags: ['React', 'JavaScript', 'Web'],
+        tags: ['Machine Learning', 'Android'],
     },
     {
-        id: 'cert3',
-        title: 'Backend Development with Node.js',
+        id: 'cert4',
+        title: 'Belajar Pengembangan Aplikasi Android Intermediate',
         issuer: 'Dicoding Indonesia',
-        date: 'Sep 2024',
-        thumbnail: '/certificates/cert3.png',
-        credentialUrl: '#',
-        tags: ['Node.js', 'Express', 'Backend'],
-    },
+        date: 'Dec 2024',
+        thumbnail: certi4,
+        credentialUrl: '',
+        tags: ['Kotlin', 'Android'],
+    }
 ];

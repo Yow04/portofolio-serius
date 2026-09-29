@@ -2,7 +2,7 @@ import { Button, Tag } from "../common";
 import type { Project } from "../../types";
 
 interface ProjectCardProps {
-    project: Project;
+  project: Project;
 }
 
 const cleanUrl = (url?: string) => url?.trim() || undefined;
@@ -32,7 +32,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
           </div>
         </div>
         <div className="flex gap-2">
-          <Button href={project.liveUrl} target="_blank" rel="noopener noreferrer" disabled={!liveUrl} fullWidth>VIEW CASE</Button>
+          <Button href={project.liveUrl} target="_blank" rel="noopener noreferrer" disabled={!liveUrl} fullWidth>PROJECT</Button>
           <Button href={project.codeUrl} target="_blank" rel="noopener noreferrer" variant="outline" disabled={!codeUrl} fullWidth>CODE</Button>
         </div>
       </div>
