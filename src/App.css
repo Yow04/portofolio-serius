@@ -31,6 +31,20 @@
     line-height: 1.5;
     min-height: 100vh;
     padding-bottom: 80px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  /* ── Dark-mode overrides ── */
+  .dark {
+    --color-ice-bg: #0B1120;
+    --color-ice-card: #111827;
+    --color-ice-primary: #38BDF8;
+    --color-ice-navy: #7DD3FC;
+    --color-ice-frost: #1E3A5F;
+    --color-ice-frost-light: #172554;
+    --color-aurora: #2DD4BF;
+    --color-polar-text: #E2E8F0;
+    --color-polar-dim: #94A3B8;
   }
 }
 

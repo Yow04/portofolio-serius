@@ -22,11 +22,11 @@ const Button = ({
     const base = 'font-pixel text-[9px] py-2.5 px-4 border-2 border-ice-navy cursor-pointer no-underline inline-flex items-center gap-2 transition-all duration-150';
 
     const solidStyles = 'bg-ice-primary text-white shadow-[3px_3px_0_var(--color-ice-navy)] hover:bg-ice-navy hover:-translate-x-px hover:-translate-y-px hover:shadow-[5px_5px_0_var(--color-ice-frost)]';
-    const outlineStyles = 'bg-white text-ice-navy shadow-[3px_3px_0_var(--color-ice-navy)] hover:bg-ice-frost hover:-translate-x-px hover:-translate-y-px hover:shadow-[5px_5px_0_var(--color-ice-frost)]';
+    const outlineStyles = 'bg-ice-card text-ice-navy shadow-[3px_3px_0_var(--color-ice-navy)] hover:bg-ice-frost hover:-translate-x-px hover:-translate-y-px hover:shadow-[5px_5px_0_var(--color-ice-frost)]';
 
     const disabledStyles = 'brightness-80 cursor-not-allowed !translate-0 !shadow-[3px_3px_0_var(--color-ice-navy)]';
     const disabledSolidBg = '!bg-ice-primary';
-    const disabledOutlineBg = '!bg-white';
+    const disabledOutlineBg = '!bg-ice-card';
 
     const fullWidthStyles = 'flex-1 justify-center text-[8px]';
 
