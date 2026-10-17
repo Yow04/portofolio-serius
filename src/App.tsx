@@ -5,7 +5,6 @@ import Projects from './components/sections/Projects';
 import Experience from './components/sections/Experience';
 import Certificates from './components/sections/Certificates';
 import Contact from './components/sections/Contact';
-import './App.css'
 
 function App() {
   return (

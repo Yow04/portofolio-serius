@@ -12,6 +12,8 @@ const CertificateCard = ({ certificate }: CertificateCardProps) => {
                 <img
                     src={certificate.thumbnail}
                     alt={certificate.title}
+                    loading="lazy"
+                    decoding="async"
                     className="w-full h-auto object-contain"
                     onError={(e) => {
                         const target = e.target as HTMLImageElement;

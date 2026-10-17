@@ -8,7 +8,16 @@ const Hero = () => {
       <div className="bg-ice-bg border-2 border-ice-navy shadow-[4px_4px_0_var(--color-ice-frost)] p-4 text-center">
         <div className="w-[210px] h-[210px] mx-auto mb-3.5 bg-ice-frost-light border-2 border-ice-primary overflow-hidden flex items-center justify-center relative">
           {profile.photo ? (
-            <img src={profile.photo} alt={profile.name} className="w-full h-full object-cover block" />
+            <img
+              src={profile.photo}
+              alt={profile.name}
+              width={210}
+              height={210}
+              loading="eager"
+              fetchPriority="high"
+              decoding="async"
+              className="w-full h-full object-cover block"
+            />
           ) : (
             <ProfileAvatar />
           )}
