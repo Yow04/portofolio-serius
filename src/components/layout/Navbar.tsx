@@ -20,7 +20,7 @@ const Navbar = () => {
 
       <nav className="flex gap-[18px] items-center">
         <a href="#about" className="text-[10px] text-polar-dim no-underline transition-colors duration-150 hover:text-ice-primary pixel-text">PROFILE</a>
-        <a href="#projects" className="text-[10px] text-polar-dim no-underline transition-colors duration-150 hover:text-ice-primary pixel-text">CASES</a>
+        <a href="#projects" className="text-[10px] text-polar-dim no-underline transition-colors duration-150 hover:text-ice-primary pixel-text">PROJECTS</a>
         <Button href={profile.resumeUrl} target="_blank" rel="noopener noreferrer"> get RESUME </Button>
       </nav>
     </header>
